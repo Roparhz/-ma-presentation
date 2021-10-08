@@ -1,0 +1,148 @@
+
+body{  
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgba(211, 175, 175, 0);
+}
+
+.color{
+    color: rgb(6, 6, 107);
+}
+.parcours{
+    text-align: center;
+    margin: 100px;
+    background-color: rgba(133, 133, 133, 0.55);
+}
+
+.cursus{
+    margin: 100px;
+    background-color: rgba(103, 102, 182, 0.75);
+}
+
+.card{
+    width: 500px;
+    height: 679px;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 70px 63px -60px black;
+    margin-left: 30%;
+    margin-bottom: 220px;
+    margin-top: 80px;
+}
+
+.border{
+    height: 669px;
+    width: 490px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+.card{
+    background: url(https://i.postimg.cc/7P9FsfL4/20210622-113725.jpg) center center no-repeat;
+    background-size: 600px;
+    transition: all .8s;
+}
+
+.card:hover{
+    background: url(https://i.postimg.cc/7P9FsfL4/20210622-113725.jpg) left center no-repeat;
+    background-size: 900px;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    top:526px;
+}
+
+.titre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titre a{
+    color: white;
+}
+
+.icons a{
+    color: white;
+}
+
+.card h2{
+    margin: 20px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card:hover h2{
+    opacity: 1;
+}
+
+.fab{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card:hover .fab{
+    opacity: 1;
+}
+
+.titre{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.card:hover .titre{
+    opacity: 1;
+}
+
+.size40{
+    font-size: 40px;
+}
+
+.size20{
+    font-size: 20px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.mrgTop{
+    margin-top: 220px;
+}
+
+.cursus table{
+    width: 100%;
+}
+.cursus table td, .cursus table th{
+    padding: 10px 20px;
+    border:1px solid #283645 ;
+    width: 33.3%;
+}
+.col1{
+    width: 20%;
+}
+.col2{
+    width: 80%;
+}
+
+
+.footer{
+    padding-top: 100px;
+}
