@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 150px;
+}
+
+h2{
+    padding:0px;
+    margin: 30px 0px;
+}
+
+.size40{
+    font-size: 40px;
+}
+
+.size20{
+    font-size: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(38, 16, 160);
+    margin-bottom: 120px;
+    padding: 10px 50px;
+}
+
+.titre a{
+    color: white;
+}
+
+.cursus table{
+    width: 100%;
+}
+.cursus table td, .cursus table th{
+    padding: 10px 20px;
+    border:1px solid #283645 ;
+    width: 33.3%;
+}
+.col1{
+    width: 20%;
+}
+.col2{
+    width: 80%;
+}
